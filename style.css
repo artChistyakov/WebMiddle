@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(37, 69, 80);
+    background: linear-gradient(90deg, rgba(37, 6980, 1) 0%, rgba(24, 47, 55, 1) 100%);
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    color: #FFF;
+}
+
+ul {
+    padding: 0px 20px;
+    background: #000;
+    margin-left: -20px;
+    border-radius: 3px;
+}
+
+ul li {
+    list-style-type: square;
+}
